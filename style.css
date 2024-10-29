@@ -1,31 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 body{
     background-color: hsl(30, 54%, 90%);
 }
 .card{
-    border: solid;
-    border-width: 1px;
-    border-color: white;
     border-radius: 10px;
-    width: 500px;
-    height: 1250px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
 }
 img{
-    border: none;
-    border-radius: 10px;
-    width: 450px;
-    height: 180px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-.section{
-    border: none;
-    width: 450px;
-    height: 1020px;
     margin: auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 180px;
 }
 h1{
     font-family: "young serif";
@@ -34,18 +26,14 @@ h1{
 p{
     font-family: "outfit";
     font-weight: 400;
-    font-size: small;
 }
 
 #preparation{
-    border: none;
     border-radius: 10px;
-    width: 400px;
     height: 100px;
-    margin: auto;
     font-family: "outfit";
     font-weight: 400;
-    font-size: small;
+    font-size: 14px;
     padding: 25px;
     padding-top: 10px;
     background-color: hsl(30, 54%, 90%);
@@ -63,7 +51,7 @@ p{
 .ingredients ul{
     font-family: "outfit";
     font-weight: 400;
-    font-size: small;
+    font-size: 14px;
 }
 #instructions h3{
     font-family: "young serif";
@@ -73,7 +61,7 @@ p{
 #instructions ol{
     font-family: "outfit";
     font-weight: 400;
-    font-size: small;
+    font-size: 14px;
 }
 .nutrition h3{
     font-family: "young serif";
@@ -83,10 +71,10 @@ p{
 .nutrition table{
     font-family: "outfit";
     font-weight: 400;
-    font-size: small;
+    font-size: 14px;
 }
 .nutrition p{
     font-family: "outfit";
     font-weight: 400;
-    font-size: small;
+    font-size: 14px;
 }
